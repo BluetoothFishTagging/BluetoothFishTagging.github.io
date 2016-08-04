@@ -22,17 +22,19 @@ We tested the application in July 2016 off the coast of Kona, Hawaii.
 
 The test version is currently downloadable [Here](https://play.google.com/apps/testing/bft.fishtagsapp).
 
-#### Server-1
+#### Server (MongoDB)
 
 Initial Implementation of Web Database Interface.
 
-- Database : MongoDB(MongoLab)
-- FileSystem : GridFS
-- Host : Heroku
+##### Database : MongoDB(MLab)
+
+##### FileSystem : GridFS
+
+##### Host : Heroku
 
 Current version is alive [Here](https://hitag-database.herokuapp.com/).
 
-#### Server-2
+#### Server (MySQL)
 
 Second Implementation of Web Database Interface.
 
@@ -42,6 +44,8 @@ i.e. we didn't need the overhead accrued over a relational database.
 
 Therefore, we re-implemented the database with MySQL.
 
-- Database : MySQL(AWS-RDS)
-- FileSYstem : AWS-S3
-- Host : Heroku
+##### Database : MySQL(AWS-RDS)
+
+##### FileSystem : AWS-S3
+
+##### Host : Heroku
